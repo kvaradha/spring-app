@@ -24,11 +24,15 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <classpathPrefix>lib/</classpathPrefix>
+              <!-- <classpathPrefix>lib/</classpathPrefix> -->
               <mainClass>com.example.springboot.Hello.HelloWorldController</mainClass>
             </manifest>
           </archive>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
