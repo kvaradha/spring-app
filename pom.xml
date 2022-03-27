@@ -13,14 +13,12 @@
     <version>2.1.2.RELEASE</version>
   </parent>
   <build>
-  <plugins>
-    <plugins>  
-        <plugin>  
-            <groupId>org.springframework.boot</groupId>  
-            <artifactId>spring-boot-maven-plugin</artifactId>  
-            <version>4.0.1</version>  
-        </plugin>  
-    </plugins>
+  <plugins>  
+    <plugin>  
+        <groupId>org.springframework.boot</groupId>  
+        <artifactId>spring-boot-maven-plugin</artifactId>  
+        <version>4.0.1</version>  
+    </plugin>
     <!--<plugin>
       <!-- Build an executable JAR -->
       <groupId>org.apache.maven.plugins</groupId>
