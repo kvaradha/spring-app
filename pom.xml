@@ -19,9 +19,9 @@
             <artifactId>spring-boot-maven-plugin</artifactId>             
             <executions>
                  <execution>
-                     <goals>
+                     <!-- <goals>
                          <goal>repackage</goal>
-                     </goals>
+                     </goals> -->
                      <configuration>
                          <classifier>spring-boot</classifier>
                          <mainClass>com.example.springboot.Hello.HelloWorldController</mainClass>
