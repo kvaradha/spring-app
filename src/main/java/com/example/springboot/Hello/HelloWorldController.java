@@ -7,6 +7,6 @@ public class HelloWorldController {
   
   @RequestMapping("/")
   String home() {
-    return "Hello World Karthikeyan1!";
+    return "Hello World Karthikeyan2!";
   }
 }
